@@ -19,6 +19,7 @@ var richText = Text(
     color: Colors.cyanAccent,
   ),
 );
+
 double opacity = 0.9;
 
 class FirstRoute extends StatelessWidget {

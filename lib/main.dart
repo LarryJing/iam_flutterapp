@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:iamapp/SecondRoute.dart';
+import 'package:iamapp/ThirdRoute.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -113,42 +115,6 @@ class FirstRoute extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class SecondRoute extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Color(0xff180C00),
-      appBar: AppBar(
-        title: Text("I Am Poor"),
-        backgroundColor: Color(0xff8B8B8B),
-      ),
-      body: Center(
-        child: Image(
-          image: AssetImage('images/penny.png'),
-        ),
-      ),
-    );
-  }
-}
-
-class ThirdRoute extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.blueGrey,
-      appBar: AppBar(
-        title: Text("I Am Rich"),
-        backgroundColor: Colors.blueGrey[900],
-      ),
-      body: Center(
-        child: Image(
-          image: AssetImage('images/diamond.png'),
-        ),
       ),
     );
   }

@@ -6,4 +6,4 @@ I am rich or poor
 
 This project is a starting point for a Flutter application.
 
-![GitHub Logo](/images/i_am_landing_screen.png)
+![Screenshot](/i_am_landing_screen.png)
